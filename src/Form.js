@@ -1,4 +1,4 @@
-import asialakay_boston from "./images/asialakay_boston.jpeg";
+import digital from "./images/digital.jpeg";
 const Form = () => {
   return (
     <section>
@@ -8,7 +8,7 @@ const Form = () => {
             <div className="fill-form form-box">
             <div className="row g-0">
                 <div className="col-xl-6 col-lg-12 d-md-none d-sm-none d-xs-none d-lg-block form-box__img">
-                <img alt="" src={asialakay_boston} />
+                <img alt="" src={digital} />
              </div>
                 <div className="col-xl-6 col-lg-12 col-md-12 form-box__content">
                 <div id="box-title">
