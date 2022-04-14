@@ -1,10 +1,15 @@
 import React from "react";
+import Banner from "./Banner";
+import Form from "./Form";
+import Footer from "./Footer";
 
 const App = () => {
   return (
-    <div>
-      <h1>Signup for updates</h1>
-    </div>
+    <>
+      <Banner/>
+      <Form />
+      <Footer/>
+    </>
   );
 };
 
