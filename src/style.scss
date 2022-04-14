@@ -124,3 +124,36 @@ input.form-control {
     color: $white;
     position: relative;
 }
+
+
+/*********************************************/
+/*              FORM CSS                "/
+/*********************************************/
+ 
+.form-box #box-title {
+    position: relative;
+    padding: 30px;
+    text-align: center;
+}
+ 
+.form-box #box-title p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+ 
+.fill-form {
+    position: relative;
+    margin: -210px auto 0px auto;
+    box-shadow: 1px 12px 16px 1px rgba(153, 153, 153, 0.75);
+    -webkit-box-shadow: 1px 12px 16px 1px rgba(153, 153, 153, 0.75);
+    -moz-box-shadow: 1px 12px 16px 1px rgba(153, 153, 153, 0.75);
+}
+ 
+.fill-form .form-box__img {
+    background-color: transparent;
+}
+ 
+.fill-form .form-box__content {
+    padding: 50px;
+    background-color: $white;
+}
