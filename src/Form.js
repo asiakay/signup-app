@@ -1,4 +1,6 @@
+import React from 'react';
 import digital from "./images/digital.jpeg";
+
 const Form = () => {
   return (
     <section>
