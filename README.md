@@ -69,3 +69,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # signup-app
+
+
+[The formspree.json File](https://help.formspree.io/hc/en-us/articles/360053906373)
+next steps: 
+- integrate with Mailchimp
+- add autoresponder 
+
+[The Formspree React library](https://help.formspree.io/hc/en-us/articles/360055613373-The-Formspree-React-library)
+
+[The Formspree CLI](https://help.formspree.io/hc/en-us/articles/360053819114)
+
+[How To Build a Contact Form with React](https://help.formspree.io/hc/en-us/articles/360053108134-How-To-Build-a-Contact-Form-with-React)
+
+[How to create a quick form with React and Formspree](https://javascript.plainenglish.io/explainlikeim5-2-how-to-create-a-form-with-react-and-formspree-easy-5510947e6b88)
+
+[Getting Started with Bootstrap 5, React, and Sass](https://designmodo.com/bootstrap-react-sass/)

@@ -1,11 +1,7 @@
 {
     "forms":{
-        "contact":{
-            "name":"Music Signup",
-            "fields": {
-                "name": { "type": "name", "required": true},
-                "email": { "type": "email", "required": true}
-            },
+        "signup-app":{
+            "name":"Signup App",
             "actions": [
                 { "type": "email", "to": "asialakay@gmail.com" }
             ]

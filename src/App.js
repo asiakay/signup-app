@@ -1,17 +1,17 @@
 import React from "react";
-import Banner from "./Banner";
-// import Form from "./Form";
-import Footer from "./Footer";
 import { FormspreeProvider } from '@formspree/react';
+import Banner from "./Banner";
+import Signup from "./Signup";
+import Footer from "./Footer";
 
 
-function App({ Component, pageProps }){
+function App(){
   return (
     <>
       <Banner/>
-      <FormspreeProvider project="1935891009925807142">
-      <Component {...pageProps} />
-      </FormspreeProvider>
+      <FormspreeProvider project="{FORMSPREE_PROJECT_ID}">
+      <Signup />
+      </FormspreeProvider>  
       <Footer/>
     </>
   );

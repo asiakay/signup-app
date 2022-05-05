@@ -19,7 +19,7 @@ const Banner = () => {
         <path d = "M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" / >
         <path d = "M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" / >
         </svg>{" "}
-        ASIALAKAY </h3> <h4 >avant-garde. edm. soul.</h4> </div> </div> </div> </div> </div> </header>
+        ASIALAKAY </h3> <h4 >art. tech. design. nature.</h4> </div> </div> </div> </div> </div> </header>
     );
 };
 export default Banner;

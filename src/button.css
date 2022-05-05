@@ -1,0 +1,40 @@
+.wrapper{
+    height:10vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+      
+  }
+
+.brutal-btn{
+    background-color: black;
+    border: 2px solid white;
+    padding:20px 50px;
+    font-weight: bold;
+    font-size:30px;
+    position:relative;
+    color:white;
+  }
+  
+  .brutal-btn:after{
+    content:'';
+    position:absolute;
+    background-color:black;
+    top:8px;
+    left:8px;
+    right:-8px;
+    bottom:-8px;
+    z-index:-1;
+  }
+    .brutal-btn:hover,brutalist-btn:active{
+      color:white;
+      background-color:black;
+      transition: all 0.3s ease;
+    }
+  
+    .brutal-btn:hover:after,brutalist-btn:hover:active{
+      background-color:white;
+      border:2px solid black;
+      transition: all 0.3s ease;
+    } 
