@@ -1,6 +1,4 @@
-import React from 'react';
 import digital from "./images/digital.jpeg";
-
 const Form = () => {
   return (
     <section>
@@ -14,7 +12,7 @@ const Form = () => {
              </div>
                 <div className="col-xl-6 col-lg-12 col-md-12 form-box__content">
                 <div id="box-title">
-                    <p className="main-form-text">To receive updates and downloads</p>
+                    <p className="main-form-text">Stay up to date</p>
                     <p>Enter your information below</p>
                 </div>
                 <form>
