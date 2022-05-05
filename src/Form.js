@@ -1,5 +1,12 @@
+import { useForm } from "@formspree/react";
 import digital from "./images/digital.jpeg";
-const Form = () => {
+
+function Form(){
+  const [state, handleSubmit] = useForm('{1935891009925807142}')
+  if (state.succeeded){
+    return <div>Thank you for signing up</div>;
+  }
+
   return (
     <section>
     <div className="container">
@@ -15,7 +22,7 @@ const Form = () => {
                     <p className="main-form-text">Stay up to date</p>
                     <p>Enter your information below</p>
                 </div>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <div className="mt-3">
                     <input
                         className="form-control"
@@ -31,7 +38,7 @@ const Form = () => {
                      id="email"
                         name="email"
                         placeholder="Your email.."
-                        type="text"
+                        type="email"
                     />
                     </div>
                     <div className="d-grid mt-4">
