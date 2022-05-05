@@ -20,7 +20,7 @@
   .brutal-btn:after{
     content:'';
     position:absolute;
-    background-color:black;
+    background-color:aqua;
     top:8px;
     left:8px;
     right:-8px;

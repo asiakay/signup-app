@@ -38,6 +38,7 @@ h3 {
     font-weight: bold;
     background-color: #000;
     line-height: 0pt;
+    border-radius: 15px;
 }
  
 h4 {
@@ -45,6 +46,7 @@ h4 {
     background-color: #000;
     font-weight: bold;
     line-height: 5pt;
+    border-radius: 15px;
 
 
 }
@@ -56,6 +58,7 @@ img {
  
 form {
     position: relative;
+    
 }
 
 footer {
@@ -175,4 +178,6 @@ input.form-control {
 .fill-form .form-box__content {
     padding: 50px;
     background-color: $black;
+    border: 2px solid black;
+    border-radius: 15px;
 }
