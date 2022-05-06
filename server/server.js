@@ -24,3 +24,14 @@ app.use(bodyParser.json())
 // implement signups route 
 app.use('/signups', signupsRouter)
 
+// implement 500 error route
+app.use(function (err, req, res, next){
+    console.error(err.stack)
+    res.status(500).send('Something is broken.')
+})
+
+// implement 404 error route
+app.use(function (res, req, next){
+    res.status(404).send('Sorry we could not find that.')
+}) 
+
