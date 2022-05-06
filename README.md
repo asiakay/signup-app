@@ -85,3 +85,16 @@ next steps:
 [How to create a quick form with React and Formspree](https://javascript.plainenglish.io/explainlikeim5-2-how-to-create-a-form-with-react-and-formspree-easy-5510947e6b88)
 
 [Getting Started with Bootstrap 5, React, and Sass](https://designmodo.com/bootstrap-react-sass/)
+
+[How to Build an App with React, Express and SQLite](https://blog.alexdevero.com/react-express-sqlite-app/)
+- dependencies 
+    - [express](https://www.npmjs.com/package/express) webframework for [node](https://nodejs.org/en/).
+    - [CORS] is a [node](https://nodejs.org/en/) package for providing a Connect/[Express](https://www.npmjs.com/package/express) middleware that can be used to enable Cross Origin Resource Sharing, or CORS with various options.
+    - [compression](https://www.npmjs.com/package/compressio
+    - [Helmet](https://www.npmjs.com/package/helmet) helps you secure your Express apps by setting various HTTP headers.
+    - [body-parser](https://www.npmjs.com/package/body-parser): Node.js incoming request body parsing middleware. 
+    - [axios](https://www.npmjs.com/package/axios), a library to send requests to the express API.
+    - [nodemon](https://www.npmjs.com/package/nodemon) automatically restarts the server when file changes in the directory are detected.
+    - [Concurrently](https://www.npmjs.com/package/concurrently) used for running express API and React app scripts at the same time. 
+    - [node-sqlite3](https://www.npmjs.com/package/sqlite3): library for allowing node to work with sqlite database.
+    - [knex.js](https://www.npmjs.com/package/knex): query builder that makes it easier to work with the SQLite database.
