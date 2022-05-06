@@ -52,5 +52,19 @@ res.json({ message: `Signup ${req.body.id} deleted.`})
 }
 
 // Remove all signups on the list
-
+exports.signupsReset = async (req, res) => {
+  // Remove all books from database
+    knex
+        .select('*') // select all records
+        .from('signups') // from 'signups' table
+        .truncate() // remove the selection
+        .then(() => {
+            // Send a message in response
+            res.json({ message: 'Signup list cleared.' })
+        })
+        .catch(err => {
+            // send an error message in response
+            res.json({ message: `There was an error resetting signup list: ${err}.`})
+        })
+}
 
