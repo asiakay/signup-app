@@ -12,3 +12,8 @@ const router = express.Router()
 // this means that '/all' translates to '/signups/all'
 router.get('/all', signupsRoutes.routesAll)
 
+// Add route for POST request to create new signup
+// In server.js, signups route is specified as '/books'
+// this means that '/create' translates to '/signups/create'
+router.post('/create', signupsRoutes.signupsCreate)
+
