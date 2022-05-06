@@ -34,3 +34,23 @@ exports.signupsCreate = async (req, res) => {
         res.json({ message: `There was an error creating ${req.body.name} signup: ${err}`})
     })
 }
+
+// Remove specific signup
+exports.signupsDelete = async (req, res) => {
+// Find specific book in the database and remove it
+knex('signups')
+.where('id', req.body.id) // find correct record based on id  
+.del() // delete the record 
+.then(() => {
+    // send a success message in response
+res.json({ message: `Signup ${req.body.id} deleted.`})
+})
+.catch(err => {
+    // Send an error message in response
+    res.json({ message: `There was an error deleting ${req.body.id} book: ${err}`})
+    })
+}
+
+// Remove all signups on the list
+
+
