@@ -1,5 +1,5 @@
 // Import database
-const knex = require('./../db')
+const knex = require('../db')
 
 // Retrieve all signups
 exports.signupsAll = async (req, res) => {
