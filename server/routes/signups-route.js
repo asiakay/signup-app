@@ -22,3 +22,9 @@ router.post('/create', signupsRoutes.signupsCreate)
 // this means that '/delete' translates to '/signups/delete'
 router.put('/delete', signupsRoutes.signupsDelete)
 
+// Add route for PUT request to reset booshelf list
+// In server.js, signups route is specified as '/signups'
+// this eans that '/reset' translates nto '/books/reset'
+router.put('/reset', signupsRoutes.signupsReset)
+
+// 
