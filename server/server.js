@@ -11,3 +11,6 @@ const signupsRouter = require('./routes/signups-route')
 // set default port for express app
 const PORT = process.env.PORT || 4001
 
+// Create expres app
+const app = express()
+
