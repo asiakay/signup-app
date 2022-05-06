@@ -17,3 +17,8 @@ router.get('/all', signupsRoutes.routesAll)
 // this means that '/create' translates to '/signups/create'
 router.post('/create', signupsRoutes.signupsCreate)
 
+// Add route for PUT request to delete specific book
+// In server.js, signups route is specified as '/signups'
+// this means that '/delete' translates to '/signups/delete'
+router.put('/delete', signupsRoutes.signupsDelete)
+
