@@ -27,4 +27,5 @@ router.put('/delete', signupsRoutes.signupsDelete)
 // this eans that '/reset' translates nto '/books/reset'
 router.put('/reset', signupsRoutes.signupsReset)
 
-// 
+// Export router 
+module.exports = router 
