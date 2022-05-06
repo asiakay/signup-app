@@ -16,3 +16,21 @@ exports.signupsAll = async (req, res) => {
         res.json({ message: `There was an error retrieving books: ${err}`})
         })
 }
+
+// Create new signup
+exports.signupsCreate = async (req, res) => {
+    // Add new signup to the database
+    knex('signups')
+    .insert({ // insert new record, a signup
+        'name': req.body.name,
+        'email': req.body.email
+    })
+    .then(() => {
+    // Send a success message in response
+    res.json({ message: `Signup \`${req.body.email}\' from ${req.body.name} created.` })
+    })
+    .catch(err => {
+     // Send an error message in response
+        res.json({ message: `There was an error creating ${req.body.name} signup: ${err}`})
+    })
+}
