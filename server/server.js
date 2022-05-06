@@ -14,3 +14,10 @@ const PORT = process.env.PORT || 4001
 // Create expres app
 const app = express()
 
+// apply middleware 
+app.use(cors())
+app.use(helmet())
+app.use(compression())
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+
