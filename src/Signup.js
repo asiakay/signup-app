@@ -84,6 +84,7 @@ const handleServerResponse = (ok, msg) => {
                 </div>
                 <form onSubmit={handleOnSubmit}>
                      <div className="mt-3">
+                       <label>Enter your name</label>
                     <input
                         className="form-control"
                         id="name"
@@ -96,6 +97,7 @@ const handleServerResponse = (ok, msg) => {
                     />
                     </div> 
                     <div className="mt-3">
+                      <label> Enter your email</label>
                     <input
                         class="form-control"
                      id="email"
