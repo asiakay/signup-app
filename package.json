@@ -1,7 +1,7 @@
 {
-  "name": "sqlite-react-signup-app",
+  "name": "react-signup-app",
   "version": "0.1.0",
-  "description": "App for collecting user email addresses built with Bootstrap, Axios, React, Express and SQLite.",
+  "description": "App for collecting user email addresses built with Bootstrap, Sass and React",
   "private": true,
   "license": "MIT",
   "main": "src/index.js",
@@ -25,17 +25,15 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.51.0",
     "web-vitals": "^2.1.0",
     "yup": "^0.32.11"
   },
   "scripts": {
-    "build": "node ./buildScript",
-    "build-front": "react-scripts build --output public",
-    "eject": "react-scripts eject",
-    "start-server": "nodemon server/server.js --watch server/*",
-    "start-front": "react-scripts start",
-    "start": "concurrently \"npm run start-server\" \"npm run start-front\" --kill-others-on-fail",
-    "test": "react-scripts test --env=jsdom"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
