@@ -26,6 +26,17 @@ body {
     position: relative;
 }
  
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:footer {
+    color: #000;
+}
 p.main-form-text {
     font-size: 25px !important;
     font-weight: bold;
@@ -45,7 +56,7 @@ h4 {
     font-size: 16px;
     background-color: #000;
     font-weight: bold;
-    line-height: 15pt;
+    line-height: 5pt;
     border-radius: 15px;
 
 

@@ -10,7 +10,7 @@ function App(){
     <>
       <Banner/>
       <FormspreeProvider project="{FORMSPREE_PROJECT_ID}">
-      <Signup />
+        <Signup/>
       </FormspreeProvider>  
       <Footer/>
     </>
