@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "./shared/Navigation";
 import YoutubeEmbed from "./components/YoutubeEmbed";
+import MixcloudEmbed from "./components/MixcloudEmbed";
 
 
 
@@ -21,6 +22,8 @@ const Banner = () => {
             Science. Technology. Art. Nature. Design. 
             </h4> 
  <YoutubeEmbed embedId="l4s2VVagJeI" />
+ <MixcloudEmbed />
+ 
 
   
  

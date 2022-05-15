@@ -86,6 +86,9 @@ next steps:
 
 [Getting Started with Bootstrap 5, React, and Sass](https://designmodo.com/bootstrap-react-sass/)
     - [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction/) // [codesandbox examples](https://github.com/react-bootstrap/code-sandbox-examples/blob/master/README.md)
+
+[Embed Mixcloud Media Into a React Website](https://coderrocketfuel.com/article/embed-mixcloud-media-into-a-react-website)
+    - [Documentation](https://github.com/CookPete/react-player)
     
 - [Breaking Change: Slash as Division](https://sass-lang.com/documentation/breaking-changes/slash-div)
 

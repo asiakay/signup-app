@@ -3,8 +3,20 @@ https://www.asialakay.net/
 https://reactgo.com/react-change-favicon/
 https://www.figma.com/file/yv0Y82L2Q4k2POFQk2TATz/Untitled?node-id=11%3A7
 
-[] Embed YouTube video into react app
+[x] ~~Embed YouTube video into React app~~
 https://www.asialakay.net/ 
+
+[x] ~~Embed Mixcloud player into React app~~
+https://www.asialakay.net/
+
+[x] ~~Add Behance profile to links~~
+https://www.behance.net/ilyag
+
+[] Draft & Publish Artist Bio / Anchor Link to Bio 
+ 
+[] Add Buy Me a coffee overlay
+https://www.buymeacoffee.com/dashboard
+
 
 Goals: 
 Create NFT campaign for New England Wildlife Center 
@@ -13,21 +25,12 @@ https://vercel.com/asiakayy/
 https://community-meta-app.vercel.app/
 Update pins on GitHub
 https://github.com/asiakay
-Add bechance to profile 
-https://www.behance.net/ilyag
+
 Narrate Kevin Samuels Video 
 https://m.youtube.com/watch?v=_99VyHrTAmw&t=7s
 https://mirror.xyz/dashboard/edit/AlxaYIjAX9WDsbZRw3NQsroYVGZR5UFChAhivDE1z5s
 
 
-
-Anchor Link to Bio - 
-Draft & Publish Artist Bio 
-
-Add favicon to site 
-https://www.asialakay.net/
-https://reactgo.com/react-change-favicon/
-https://www.figma.com/file/yv0Y82L2Q4k2POFQk2TATz/Untitled?node-id=11%3A7
 
 
 
