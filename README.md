@@ -85,6 +85,9 @@ next steps:
 [How to create a quick form with React and Formspree](https://javascript.plainenglish.io/explainlikeim5-2-how-to-create-a-form-with-react-and-formspree-easy-5510947e6b88)
 
 [Getting Started with Bootstrap 5, React, and Sass](https://designmodo.com/bootstrap-react-sass/)
+    - [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction/) // [codesandbox examples](https://github.com/react-bootstrap/code-sandbox-examples/blob/master/README.md)
+    
+- [Breaking Change: Slash as Division](https://sass-lang.com/documentation/breaking-changes/slash-div)
 
 [How to Build an App with React, Express and SQLite](https://blog.alexdevero.com/react-express-sqlite-app/)
 - dependencies 
@@ -98,3 +101,4 @@ next steps:
     - [Concurrently](https://www.npmjs.com/package/concurrently) used for running express API and React app scripts at the same time. 
     - [node-sqlite3](https://www.npmjs.com/package/sqlite3): library for allowing node to work with sqlite database.
     - [knex.js](https://www.npmjs.com/package/knex): query builder that makes it easier to work with the SQLite database.
+    - 
