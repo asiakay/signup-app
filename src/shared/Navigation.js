@@ -31,7 +31,7 @@ const Navigation = () => {
                             </NavDropdown.Item>
                             <NavDropdown.Item href="https://padlet.com/asialakay/fvc9yi3h4932">ESG & Wellness</NavDropdown.Item>
                             <NavDropdown.Item href="https://padlet.com/asialakay/5whx56vtzv5vw8yy">
-                                Web3 Job Boards
+                                Web3 Resources Job Boards  
                             </NavDropdown.Item>
                                     </NavDropdown>
                         <Nav.Link href="https://music-asiakayy.vercel.app/">Audio Catalog</Nav.Link>
