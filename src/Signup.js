@@ -89,6 +89,7 @@ const handleServerResponse = (ok, msg) => {
                         className="form-control"
                         id="name"
                         name="_name"
+                        class="rounded"
                       placeholder="Your name.."
                         type="text"
                         onChange={handleOnChange}
@@ -99,11 +100,12 @@ const handleServerResponse = (ok, msg) => {
                     <div className="mt-3">
                       <label> Enter your email</label>
                     <input
-                        class="form-control"
+                        className="form-control"
                      id="email"
                         placeholder="Your email.."
                         type="email"
                         name="_replyto"
+                        class="rounded"
                         onChange={handleOnChange}
                         required
                         value={inputs.message}

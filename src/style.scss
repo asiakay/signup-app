@@ -40,19 +40,20 @@ a:footer {
 p.main-form-text {
     font-size: 25px !important;
     font-weight: bold;
-    color: white;
+    color: #ff00ff;
+
 }
  
 
 
 h3 {
-    font-size: 40px;
+    font-size: 60px;
     padding: 20px;
     color: #000;
     outline: 3px solid black;
     letter-spacing: 10px;
     font-weight: bold;
-    background-color: lime;
+    background-color: #ff00ff;
     line-height: 20pt;
     border-radius: 15px;
     transform: translate(0, -35px);
@@ -69,7 +70,7 @@ h4 {
     line-height: 15pt;
     border-radius: 15px;
     padding: 30px;
-    background-color: lime;
+    background-color: #ffff00;
     transform: translate(0, -35px);
     box-shadow:10px 10px black;
     outline: 3px solid black;
@@ -139,31 +140,11 @@ input.form-control {
     background-color: #01002C;
 }
 
-.brutal-btn{
-    background-color: white;
-    border: 2px solid green;
-    padding:20px 50px;
-    font-weight: bold;
-    font-size:30px;
-    position:relative;
-    color:green;
-    border-radius: 15px;
-  }
-
-  .brutal-btn:after{
-    content:'';
-    position:absolute;
-    background-color:green;
-    top:8px;
-    left:8px;
-    right:-8px;
-    bottom:-8px;
-    z-index:-1;
-    border-radius: 15px;
-
-  }
 
 
+.button-text {
+    outline: 3px solid black;
+}
 
 /*********************************************/
 /*              BANNER CSS              */
@@ -216,7 +197,8 @@ input.form-control {
     border: 2px solid white;
     border-radius: 15px;
     transform: translate(0, -35px);
-    box-shadow:10px 10px white;
+    box-shadow:10px 10px #ff00ff;
+    color: #000;
 }
  
 .form-box #box-title p {
@@ -225,7 +207,7 @@ input.form-control {
 }
  
 .fill-form {
-    background-color: #000;
+    background-color: black;
     position: relative;
     margin: -210px auto 0px auto;
     box-shadow: 1px 12px 16px 1px rgba(153, 153, 153, 0.75);
@@ -244,6 +226,22 @@ input.form-control {
     border-radius: 15px;
 }
 
+input.rounded {
+    border: 1px solid lime;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 3px #ff00ff;
+    -webkit-box-shadow: 2px 2px 3px #ff00ff;
+    box-shadow: 2px 2px 3px #ff00ff;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+input.rounded:focus {
+    background-color: #ffff00;
+}
 /*********************************************/
 /*              VIDEO CSS                "/
 /*********************************************/
@@ -285,3 +283,62 @@ input.form-control {
     width: 100%;
     position: absolute;
 }
+
+
+/*********************************************/
+/*              Brutal Button CSS                "/
+/*********************************************/
+
+
+.brutal-btn{
+    background-color: #ff00ff;
+    border: 2px solid white;
+    padding:20px 50px;
+    font-weight: bold;
+    font-size:30px;
+    position:relative;
+    color:lime;
+    border-radius: 15px;
+
+  }
+
+  .brutal-btn:after{
+    content:'';
+    position:absolute;
+    background-color:lime;
+    top:8px;
+    left:8px;
+    right:-8px;
+    bottom:-8px;
+    z-index:-1;
+    border-radius: 15px;
+
+  }
+
+  /* hover */
+
+  .brutal-btn:hover {
+    background-color: "";
+    border: 2px solid lime;
+    padding:20px 50px;
+    font-weight: bold;
+    font-size:30px;
+    position:relative;
+    color:#ffff00;
+    border-radius: 15px;
+
+  }
+
+  .brutal-btn:hover:after {
+    content:'';
+    position:absolute;
+    background-color:#ff00ff;
+    border: 2px solid #ff00ff;
+    top:8px;
+    left:8px;
+    right:-8px;
+    bottom:-8px;
+    z-index:-1;
+    border-radius: 15px;
+
+  }
