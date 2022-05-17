@@ -5,7 +5,7 @@ import Twitter from "./components/twitter"
 const Footer = () => {
     return ( <footer className = "d-block" >
         
-        <nav class="navbar fixed-bottom bg-light">
+        <nav class="navbar fixed-bottom" id="bottom-nav">
 <div class="container-fluid">
         <p className = "text-center" > © 2022 ASIALAKAY.NET </p>
         <p className="text-center">

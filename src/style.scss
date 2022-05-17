@@ -4,7 +4,7 @@
 /*********************************************/
  
 $body-bg: #cccccc;
-$body-color: #999999;
+// $body-color: #999999;
 $font-family-sans-serif: "Poppins",
 sans-serif;
 $primary: #000000;
@@ -26,6 +26,18 @@ body {
     position: relative;
 }
  
+#top-nav {
+    background-color: lime;
+}
+
+.menu {
+    background-color: #000;
+}
+
+#bottom-nav {
+    background-color: #ff00ff;
+}
+
 a {
     color: black;
 }
@@ -44,7 +56,15 @@ p.main-form-text {
 
 }
  
-
+#header-three {
+    padding: 30px;
+    background-color: #ff00ff;
+    /* border-radius: 15px; */
+    transform: translate(0, -35px);
+    box-shadow:10px 10px black;
+    margin-bottom: 30px;
+    outline: 3px solid black;
+}
 
 h3 {
     font-size: 60px;
@@ -53,32 +73,36 @@ h3 {
     outline: 3px solid black;
     letter-spacing: 10px;
     font-weight: bold;
-    background-color: #ff00ff;
+    background-color: "";
     line-height: 20pt;
-    border-radius: 15px;
-    transform: translate(0, -35px);
-    box-shadow:10px 10px black;
+    /* border-radius: 15px; */
+    /* transform: translate(0, -35px); */
+   /*  box-shadow:10px 10px black; */
     margin: 10px;
 
 }
  
+#header-four {
+    padding: 30px;
+    background-color: #ffff00;
+    /* border-radius: 15px; */
+    transform: translate(0, -35px);
+    box-shadow:10px 10px black;
+    margin-bottom: 30px;
+    outline: 3px solid black;
+}
 h4 {
     color: #000;
     font-size: 16px;
     background-color: #000;
     font-weight: bold;
     line-height: 15pt;
-    border-radius: 15px;
     padding: 30px;
     background-color: #ffff00;
+    /* border-radius: 15px;
     transform: translate(0, -35px);
-    box-shadow:10px 10px black;
+    box-shadow:10px 10px black; */
     outline: 3px solid black;
-
-
-
-
-
 
 }
  
@@ -87,12 +111,23 @@ img {
     height: 100%;
 }
  
+#asia-k {
+    border-radius: "";
+
+}
+
+
 form {
     position: relative;
+    
+}
+
+#signup {
     border-radius: 15px;
     transform: translate(0, -35px);
     box-shadow:10px 10px black;
-    
+    padding: 30px;
+   /*  background-color: #6600ff; */
 }
 
 footer {
@@ -187,7 +222,17 @@ input.form-control {
 /*********************************************/
 
 
+label {
+    background-color: #000;
+    font-weight: bold;
+    color: #ffff00;
+    padding: 5px;
+    /* box-shadow:10px 10px lime; */
+    float: left;
+    border: 2px solid white;
+    border-radius: 15px;
 
+}
 
 .form-box #box-title {
     position: relative;
@@ -207,23 +252,23 @@ input.form-control {
 }
  
 .fill-form {
-    background-color: black;
+    background-color: "";
     position: relative;
     margin: -210px auto 0px auto;
-    box-shadow: 1px 12px 16px 1px rgba(153, 153, 153, 0.75);
+    /* box-shadow: 1px 12px 16px 1px rgba(153, 153, 153, 0.75);
     -webkit-box-shadow: 1px 12px 16px 1px rgba(153, 153, 153, 0.75);
     -moz-box-shadow: 1px 12px 16px 1px rgba(153, 153, 153, 0.75);
-}
+ */}
  
 .fill-form .form-box__img {
-    background-color: transparent;
+    background-color: "";
 }
  
 .fill-form .form-box__content {
     padding: 50px;
-    background-color: $black;
+    /* background-color: $black; */
     border: 2px solid black;
-    border-radius: 15px;
+   /*  border-radius: 15px; */
 }
 
 input.rounded {
@@ -237,6 +282,7 @@ input.rounded {
     padding: 4px 7px;
     outline: 0;
     -webkit-appearance: none;
+    margin: 10px;
 }
 
 input.rounded:focus {
@@ -245,6 +291,17 @@ input.rounded:focus {
 /*********************************************/
 /*              VIDEO CSS                "/
 /*********************************************/
+
+#watch {
+    padding: 30px;
+    background-color: #6600ff;
+/*     border-radius: 15px;
+ */    transform: translate(0, -35px);
+    box-shadow:10px 10px black;
+    margin-bottom: 30px;
+    outline: 3px solid black;
+
+}
 
 .video-responsive {
 
@@ -268,6 +325,16 @@ input.rounded:focus {
 /*********************************************/
 /*              Mixcloud CSS                "/
 /*********************************************/
+
+#listen {
+    padding: 30px;
+    background-color: #6600ff;
+/*     border-radius: 15px;
+ */    transform: translate(0, -35px);
+    box-shadow:10px 10px black;
+    outline: 3px solid black;
+    margin-bottom: 30px;
+}
 
 .mixcloud-responsive {
     overflow: hidden;

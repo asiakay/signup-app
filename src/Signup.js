@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 // import { useForm } from "@formspree/react";
 // import digital from "./images/digital.jpeg";
-import avant_me from "./images/avant_me.jpg";
+// import avant_me from "./images/avant_me.jpg";
+import avant_me_color from "./images/avant_me_color.jpeg";
 import axios from "axios";
 import './button.css';
 
@@ -69,13 +70,15 @@ const handleServerResponse = (ok, msg) => {
 
   return (
     <section>
+      <div id="signup">
     <div className="container" id="form">
         <div className="row">
         <div className="col-lg-7 offset-lg-2 g-0 mx-auto">
             <div className="fill-form form-box">
             <div className="row g-0">
                 <div className="col-xl-6 col-lg-12 d-md-none d-sm-none d-xs-none d-lg-block form-box__img">
-                <img alt="" src={avant_me} />
+                
+                <img alt="Asia K Thinking" src={avant_me_color} id="asia-k"/>
              </div>
                 <div className="col-xl-6 col-lg-12 col-md-12 form-box__content">
                 <div id="box-title">
@@ -133,6 +136,7 @@ const handleServerResponse = (ok, msg) => {
             </div>
         </div>
         </div>
+    </div>
     </div>
     </section>
   );

@@ -1,14 +1,13 @@
 import React from "react";
-import { Nav, Navbar, NavDropdown, Offcanvas } from "react-bootstrap";
-import { Container } from "react-bootstrap";
+import { Container, Nav, Navbar, NavDropdown, Offcanvas } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 
 const Navigation = () => {
     return (
-        <div>
-          
-            {['xxl'].map((expand) => (
-            <Navbar key={expand} bg="light" variant="light" expand={expand} className="mb-3">
-            <Container fluid>
+        <>
+  {[false].map((expand) => (
+            <Navbar key={expand}  expand={false} className="" id="top-nav">
+                   <Container fluid>
                     <Navbar.Brand href="#">Asialakay.net</Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                     <Navbar.Offcanvas
@@ -42,11 +41,11 @@ const Navigation = () => {
                             </Nav>
                         </Offcanvas.Body>
                         </Navbar.Offcanvas>
-                </Container>
+                        </Container>
                 </Navbar>
             ))}
 
-        </div>
+        </>
 
     );
 
