@@ -43,22 +43,40 @@ p.main-form-text {
     color: white;
 }
  
+
+
 h3 {
     font-size: 40px;
+    padding: 20px;
+    color: #000;
+    outline: 3px solid black;
     letter-spacing: 10px;
     font-weight: bold;
-    background-color: #000;
+    background-color: lime;
     line-height: 20pt;
     border-radius: 15px;
+    transform: translate(0, -35px);
+    box-shadow:10px 10px black;
+    margin: 10px;
+
 }
  
 h4 {
+    color: #000;
     font-size: 16px;
     background-color: #000;
     font-weight: bold;
     line-height: 15pt;
     border-radius: 15px;
     padding: 30px;
+    background-color: lime;
+    transform: translate(0, -35px);
+    box-shadow:10px 10px black;
+    outline: 3px solid black;
+
+
+
+
 
 
 }
@@ -70,6 +88,9 @@ img {
  
 form {
     position: relative;
+    border-radius: 15px;
+    transform: translate(0, -35px);
+    box-shadow:10px 10px black;
     
 }
 
@@ -118,7 +139,29 @@ input.form-control {
     background-color: #01002C;
 }
 
+.brutal-btn{
+    background-color: white;
+    border: 2px solid green;
+    padding:20px 50px;
+    font-weight: bold;
+    font-size:30px;
+    position:relative;
+    color:green;
+    border-radius: 15px;
+  }
 
+  .brutal-btn:after{
+    content:'';
+    position:absolute;
+    background-color:green;
+    top:8px;
+    left:8px;
+    right:-8px;
+    bottom:-8px;
+    z-index:-1;
+    border-radius: 15px;
+
+  }
 
 
 
@@ -161,13 +204,19 @@ input.form-control {
 /*********************************************/
 /*              FORM CSS                "/
 /*********************************************/
- 
+
+
+
+
 .form-box #box-title {
     position: relative;
     padding: 30px;
     text-align: center;
-    background-color:#000;
+    background-color:lime;
     border: 2px solid white;
+    border-radius: 15px;
+    transform: translate(0, -35px);
+    box-shadow:10px 10px white;
 }
  
 .form-box #box-title p {
@@ -200,10 +249,14 @@ input.form-control {
 /*********************************************/
 
 .video-responsive {
+
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
+    display: block;
+
+    
 }
 
 .video-responsive iframe {
