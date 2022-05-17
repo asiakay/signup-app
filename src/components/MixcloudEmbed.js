@@ -8,7 +8,7 @@ function MixcloudEmbed(){
 
         <ReactPlayer
             url="https://www.mixcloud.com/asialakay/all-bass-everything-live-mix/"
-            controls
+            controls="false"
             
             />
     </div>

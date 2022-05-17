@@ -26,8 +26,38 @@ body {
     position: relative;
 }
  
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    // transform: translate(0, -35px);
+    // box-shadow:10px 10px black;
+    // margin-bottom: 30px;
+    // outline: 3px solid black;
+}
+
+h5 {
+	font-size: 4vw;
+	font-weight: 900;
+	background-color: #000;
+	color: #fff;
+	display: block;
+	padding: .5em;
+}
+
+h5:nth-child(2) {
+	position: absolute;
+	background-color: #fff;
+	color: #000;
+	clip-path: inset(-1% -1% 50% -1%); // Added the negative values to prevent icky "bleed" in Chrome
+}
+
 #top-nav {
     background-color: lime;
+}
+.black-box {
+    background-color: black;
 }
 
 .menu {
@@ -66,12 +96,15 @@ p.main-form-text {
     outline: 3px solid black;
 }
 
+
+
 h3 {
-    font-size: 60px;
+    font-size: 40px;
+    background-color: #000;
     padding: 20px;
-    color: #000;
-    outline: 3px solid black;
-    letter-spacing: 10px;
+    color: #fff;
+    // outline: 3px solid black;
+    letter-spacing: 8px;
     font-weight: bold;
     background-color: "";
     line-height: 20pt;
@@ -79,6 +112,12 @@ h3 {
     /* transform: translate(0, -35px); */
    /*  box-shadow:10px 10px black; */
     margin: 10px;
+    /* stroke text */
+    // -webkit-text-stroke:1px lime;
+    // -webkit-text-fill-color:transparent;
+    /* shadow text */
+    // text-shadow:1px 0 0 red,0 1px 0 red,-1px 0 0 red,0 -1px 0 red;
+
 
 }
  
@@ -409,3 +448,5 @@ input.rounded:focus {
     border-radius: 15px;
 
   }
+
+ 

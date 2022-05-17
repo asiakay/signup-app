@@ -5,12 +5,11 @@ import Header from "./shared/Header";
 import Signup from "./Signup";
 import Footer from "./Footer";
 
-
-
 function App(){
   return (
     <>
       <Header/>
+
       <FormspreeProvider project="{FORMSPREE_PROJECT_ID}">
         <Signup/>
       </FormspreeProvider>  

@@ -2,13 +2,18 @@ import React from "react";
 import { Container, Nav, Navbar, NavDropdown, Offcanvas } from "react-bootstrap";
 // import { Container } from "react-bootstrap";
 
+
 const Navigation = () => {
     return (
         <>
   {[false].map((expand) => (
             <Navbar key={expand}  expand={false} className="" id="top-nav">
                    <Container fluid>
-                    <Navbar.Brand href="#">Asialakay.net</Navbar.Brand>
+                    <Navbar.Brand href="#">
+                    <div class="black-box">
+		<h5>asialakay.net</h5>
+	</div>
+    </Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-${expand}`}
@@ -31,10 +36,11 @@ const Navigation = () => {
                                         <NavDropdown.Item href="https://padlet.com/asialakay/7r95wn8y6w5qewbv">A/V & Music NFT Info</NavDropdown.Item>
                                         <NavDropdown.Item href="https://padlet.com/asialakay/5whx56vtzv5vw8yy">Web3 Job Boards</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="https://music-asiakayy.vercel.app/">Audio Catalog</Nav.Link>
-                            <Nav.Link href="https://www.mixcloud.com/asialakay/uploads/">DJ Mixes</Nav.Link>
+                            <Nav.Link href="https://music-asiakayy.vercel.app/">Audio Samples</Nav.Link>
                             <Nav.Link href="https://www.behance.net/ilyag">Graphic Design</Nav.Link>
+                            <Nav.Link href="https://github.com/asiakay#projects">Dev Projects</Nav.Link>
                             <Nav.Link href="https://artphotography-asiakayy.vercel.app/">Photography</Nav.Link>
+                            <Nav.Link href="https://www.mixcloud.com/asialakay/uploads/">DJ Mixes</Nav.Link>
                             <Nav.Link href="https://algogems.io/gallery/AsiaK">NFTs</Nav.Link>
                             <Nav.Link href="https://til.gatsbyjs.io/">Web3 Blog</Nav.Link>
                             <Nav.Link href="https://asialakay-docs-asiakayy.vercel.app/">Tutorials (under construction)</Nav.Link>
