@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player';
 
 function MixcloudEmbed(){
     return (
+        <div id="listen">
         <div className="mixcloud-responsive">
 
         <ReactPlayer
@@ -10,6 +11,7 @@ function MixcloudEmbed(){
             controls
             
             />
+    </div>
     </div>
     )
 }
