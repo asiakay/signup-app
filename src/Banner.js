@@ -18,7 +18,7 @@ const Banner = () => {
         <h3 className = "" > {
             " "
         } {" "}
-        Audio / Visual / Dev </h3>
+        Audio / Visual / Web </h3>
         </div>
         <div id="header-four">
          <div class="text-box">
