@@ -166,6 +166,7 @@ form {
     transform: translate(0, -35px);
     box-shadow:10px 10px black;
     padding: 30px;
+    background-image: url(./images/white_noise1.png);
    /*  background-color: #6600ff; */
 }
 
@@ -306,7 +307,7 @@ label {
 .fill-form .form-box__content {
     padding: 50px;
     /* background-color: $black; */
-    border: 2px solid black;
+    /* border: 8px solid black; */
    /*  border-radius: 15px; */
 }
 
