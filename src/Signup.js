@@ -131,7 +131,7 @@ const handleServerResponse = (ok, msg) => {
                   {status.info.error && (
         <div className="error">Error: {status.info.msg}</div>
       )}
-      {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}                </div>
+      {!status.info.error && status.info.msg && <div class="status-wrapper"><p class="status">{status.info.msg}</p></div>}                </div>
             </div>
             </div>
         </div>

@@ -328,6 +328,19 @@ input.rounded {
 input.rounded:focus {
     background-color: #ffff00;
 }
+
+
+.status-wrapper {
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    background-color:lime;
+    border: 2px solid white;
+    border-radius: 15px;
+    transform: translate(0, -35px);
+    box-shadow:10px 10px #ff00ff;
+    color: #000;
+}
 /*********************************************/
 /*              VIDEO CSS                "/
 /*********************************************/
