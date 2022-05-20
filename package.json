@@ -7,8 +7,6 @@
   "main": "src/index.js",
   "prox": "http://localhost:4001",
   "dependencies": {
-    "@cassette/core": "^2.0.0-beta.4",
-    "@cassette/player": "^2.0.0-beta.4",
     "@formspree/react": "^2.2.4",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
@@ -38,7 +36,6 @@
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.0.6",
     "sass": "^1.51.0",
-    "tsparticles": "^2.0.6",
     "web-vitals": "^2.1.0",
     "yup": "^0.32.11"
   },
