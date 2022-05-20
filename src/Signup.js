@@ -82,8 +82,8 @@ const handleServerResponse = (ok, msg) => {
              </div>
                 <div className="col-xl-6 col-lg-12 col-md-12 form-box__content">
                 <div id="box-title">
-                    <p className="main-form-text">Stay up to date</p>
-                    <p>Enter your information below</p>
+                    <p className="main-form-text">Stay Tuned</p>
+                    <p>Enter Your Info Below</p>
                 </div>
                 <form onSubmit={handleOnSubmit}>
                      <div className="mt-3">

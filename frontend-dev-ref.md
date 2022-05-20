@@ -8,6 +8,11 @@
     - [React Icons](https://react-icons.github.io/react-icons/)
     - [Add link to Font Awesome icon in ReactJS](https://stackoverflow.com/questions/57200956/add-link-to-font-awesome-icon-in-reactjs)
     - [react-bootstrap navbars](https://react-bootstrap.github.io/components/navbar/)
+
+    - [tsParticles animation library](https://github.com/matteobruni/tsparticles/tree/main/components/react)
+
+
+
     - [x] https://letsbuildui.dev/articles/building-an-audio-player-with-react-hooks
 
     - [ReactPlayer](https://github.com/CookPete/react-player)
