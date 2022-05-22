@@ -2,10 +2,11 @@
     "forms":{
         "signup-app":{
             "name":"Signup App",
-            "actions": [
-                { "type": "email", "to": "asialakay@gmail.com" }
-            ]
+            "actions": [{ 
+                "type": "addOrUpdateContact",
+                "audience": "", 
+                "apiKey": "22d622e41816072720c9b0066ed6f20f-us5" 
+            }]
         }
     }
-
 }

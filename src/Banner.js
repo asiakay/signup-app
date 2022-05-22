@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "./shared/Navigation";
 import YoutubeEmbed from "./components/YoutubeEmbed";
 import MixcloudEmbed from "./components/MixcloudEmbed";
-
+import { Container, Row, Col, ListGroup } from "react-bootstrap";
 
 const Banner = () => {
     return ( <header>
@@ -25,8 +25,24 @@ const Banner = () => {
 		<h5>My Portfolio</h5>
 		<h5>My Portfolio</h5>
 	</div> 
-       
-            </div>
+    <div class="shadowlink">
+    <Container>
+  <Row>
+    <Col> 
+    <a href="https://www.github.com/asiakay">The source code for my web projects are accessible through my Github profile. </a>
+</Col>
+    <Col>
+    <ListGroup>
+        <ListGroup.Item>
+    <a href="https://www.github.com/asialakay">Click here for Github</a>
+        </ListGroup.Item>
+    </ListGroup>
+    </Col>
+  </Row>
+  </Container>
+  
+</div>
+ </div>
 
             <div id="watch">
            {/*  <div class="text-box">

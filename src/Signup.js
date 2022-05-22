@@ -59,7 +59,7 @@ const handleServerResponse = (ok, msg) => {
     .then(response => {
       handleServerResponse(
         true,
-        'Your email was received. Thanks for being in touch.'
+        'Your email was received. Thanks for being in touch. Follow on Twitter for Daily Updates.'
       )
     })
     .catch(error => {
