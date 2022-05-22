@@ -1,3 +1,8 @@
+
+## Font Styling ## 
+[CodePen Home
+[79 CSS Text Effects](https://freefrontend.com/css-text-effects/)
+
 ## Form Styling ##
 
 [CSS3 rounded corner input](https://electrictoolbox.com/css3-rounded-corner-input/)
@@ -10,6 +15,7 @@
     - [react-bootstrap navbars](https://react-bootstrap.github.io/components/navbar/)
 
     - [tsParticles animation library](https://github.com/matteobruni/tsparticles/tree/main/components/react)
+    
 
 
 

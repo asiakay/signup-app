@@ -22,8 +22,8 @@ const Banner = () => {
         </div>
         <div id="header-four">
          <div class="text-box">
-		<h5>Under Construction</h5>
-		<h5>Under Construction</h5>
+		<h5>My Portfolio</h5>
+		<h5>My Portfolio</h5>
 	</div> 
        
             </div>
