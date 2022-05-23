@@ -6,8 +6,9 @@
 [CodePen Home
 npm start[79 CSS Text Effects](https://freefrontend.com/css-text-effects/)
 
-## Form Styling ##
+[Text Shadow CSS Generator](https://html-css-js.com/css/generator/text-shadow/)
 
+## Form Styling ##
 [CSS3 rounded corner input](https://electrictoolbox.com/css3-rounded-corner-input/)
 
 
