@@ -11,6 +11,8 @@ npm start[79 CSS Text Effects](https://freefrontend.com/css-text-effects/)
 ## Form Styling ##
 [CSS3 rounded corner input](https://electrictoolbox.com/css3-rounded-corner-input/)
 
+## Image Credits ## 
+[8bit Wallpaper](https://wallpaperaccess.com/8-bit-gif#google_vignette)
 
 ## React ## 
 
@@ -23,8 +25,7 @@ npm start[79 CSS Text Effects](https://freefrontend.com/css-text-effects/)
     - [Add link to Font Awesome icon in ReactJS](https://stackoverflow.com/questions/57200956/add-link-to-font-awesome-icon-in-reactjs)
     - [react-bootstrap navbars](https://react-bootstrap.github.io/components/navbar/)
 
-    - [tsParticles animation library](https://github.com/matteobruni/tsparticles/tree/main/components/react)
-    
+ 
 
 
 

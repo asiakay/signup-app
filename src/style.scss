@@ -210,7 +210,7 @@ footer {
 /*              UTILITY CSS             */
 /*********************************************/
  
-input,
+textarea, input,
 input.form-control {
     color: #222;
     font-size: 12px;
@@ -384,6 +384,25 @@ input.rounded {
 }
 
 input.rounded:focus {
+    background-color: #ffff00;
+}
+
+textarea.rounded {
+    border: 1px solid lime;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 3px #ff00ff;
+    -webkit-box-shadow: 2px 2px 3px #ff00ff;
+    box-shadow: 2px 2px 3px #ff00ff;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+    margin: 10px;
+    height: 90px;
+}
+
+textarea.rounded:focus {
     background-color: #ffff00;
 }
 

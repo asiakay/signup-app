@@ -36,10 +36,10 @@ const Banner = () => {
     <ListGroup.Item id="li">HTML5/CSS3/JavaScript</ListGroup.Item>
     <ListGroup.Item id="li">Responsive Web Design</ListGroup.Item>
     <ListGroup.Item id="li">React UI Frameworks</ListGroup.Item>
+    <ListGroup.Item id="li">Node.js & Express.js</ListGroup.Item>
     <ListGroup.Item id="li">Adobe Suite & Figma</ListGroup.Item>
-    <ListGroup.Item id="li">Git - VCS - CI/CD </ListGroup.Item>
+    <ListGroup.Item id="li">Git - VCS - CI/CD</ListGroup.Item>
     <ListGroup.Item id="li">API Orchestration</ListGroup.Item>
-    <ListGroup.Item id="li">Node.js & Express</ListGroup.Item>
 
 
   

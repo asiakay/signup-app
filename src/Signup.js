@@ -15,7 +15,8 @@ const [status, setStatus] = useState({
 })
 const [inputs, setInputs] = useState({
   name: '',
-  email: ''
+  email: '',
+  message: ''
 })
 
 const handleServerResponse = (ok, msg) => {
@@ -27,7 +28,8 @@ const handleServerResponse = (ok, msg) => {
     })
     setInputs({
       name: '',
-      email: ''
+      email: '',
+      message: ''
     }) 
   } else {
       setStatus({
@@ -59,7 +61,7 @@ const handleServerResponse = (ok, msg) => {
     .then(response => {
       handleServerResponse(
         true,
-        'Your email was received. Thanks for being in touch. Follow on Twitter for Daily Updates.'
+        'Your email was received. Thanks for being in touch!'
       )
     })
     .catch(error => {
@@ -108,6 +110,22 @@ const handleServerResponse = (ok, msg) => {
                         placeholder="Your email.."
                         type="email"
                         name="_replyto"
+                        class="rounded"
+                        onChange={handleOnChange}
+                        required
+                        value={inputs.email}
+                    />
+                    </div>
+
+                    <div className="mt-3">
+                      <label> Enter your message</label>
+                     
+                    <textarea
+                        className="form-control"
+                     id="message"
+                        placeholder="Your message.."
+                        type="text"
+                        name="_message"
                         class="rounded"
                         onChange={handleOnChange}
                         required

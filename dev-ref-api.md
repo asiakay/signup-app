@@ -1,4 +1,4 @@
-[How To Build a MailChimp Form with ReactHow To Build a MailChimp Form with React](https://help.formspree.io/hc/en-us/articles/360053124374-How-To-Build-a-MailChimp-Form-with-React)
+[How To Build a MailChimp Form with React](https://help.formspree.io/hc/en-us/articles/360053124374-How-To-Build-a-MailChimp-Form-with-React)
 
 [Mailchimp Marketing API](https://mailchimp.com/developer/marketing/guides/quick-start/)
 
