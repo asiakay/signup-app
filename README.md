@@ -1,3 +1,12 @@
+# User Stories #
+
+[] Users can access links to view audio, visual and web development portfolio
+
+[] Users can sign up to receive updates 
+
+[] Users can contact developer via chatbox
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -105,3 +114,6 @@ next steps:
     - [node-sqlite3](https://www.npmjs.com/package/sqlite3): library for allowing node to work with sqlite database.
     - [knex.js](https://www.npmjs.com/package/knex): query builder that makes it easier to work with the SQLite database.
     - 
+
+### Troubleshooting Notes ### 
+[Fix the upstream dependency conflict installing NPM packages](https://stackoverflow.com/a/64987777/13978364)

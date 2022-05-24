@@ -4,6 +4,12 @@ import YoutubeEmbed from "./components/YoutubeEmbed";
 import MixcloudEmbed from "./components/MixcloudEmbed";
 import { Container, Row, Col, ListGroup, Button } from "react-bootstrap";
 //import Github from "./components/github";
+import Chatbot from 'react-chatbot-kit'
+import 'react-chatbot-kit/build/main.css'
+import config from "./bot/config.js";
+import MessageParser from "./bot/MessageParser.js";
+import ActionProvider from "./bot/ActionProvider.js";
+
 
 const Banner = () => {
     return ( <header>
@@ -34,7 +40,11 @@ const Banner = () => {
   <ListGroup.Item id="li">Figma</ListGroup.Item>
 
 </ListGroup>
-
+{/* <Chatbot 
+    config={config}
+    messageParser={MessageParser}
+    actionProvider={ActionProvider}
+    /> */}
         </div>
         <div id="header-four">
             <h5>My Portfolio</h5>

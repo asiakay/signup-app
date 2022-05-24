@@ -179,8 +179,11 @@ form {
  */    transform: translate(0, -35px);
     box-shadow:10px 10px black;
     padding: 30px;
-    background-image: url(./images/white_noise1.png);
-   /*  background-color: #6600ff; */
+    
+    background: rgb(170,255,85);
+    background: linear-gradient(126deg, rgba(170,255,85,1) 0%, rgba(255,85,170,1) 24%, rgba(0,0,85,1) 96%, rgba(0,85,255,1) 99%, rgba(255,170,0,1) 99%, rgba(255,170,0,1) 100%);
+/*    background-image: url(./images/time.gif);
+ */   /*  background-color: #6600ff; */
 }
 
 footer {
@@ -251,8 +254,9 @@ input.form-control {
     /* background-image: url("./images/pexels-pixabay-210158.jpeg"); */
 /*     background-image: url("./images/colordrop.gif");
  */    
- background-image: url("./images/time.gif"); 
+/*  background-image: url("./images/time.gif");  */
  /* background-image: url("./images/wave.gif"); */
+ background-image: url("./images/time.gif");
  min-height: 500px;
     padding: 40px 0px;
     position: relative;
