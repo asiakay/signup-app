@@ -10,6 +10,9 @@ sans-serif;
 $primary: #000000;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
 
 /*********************************************/
 /*      MARGIN TOP CUSTOM UTILITY       */
@@ -51,13 +54,15 @@ body {
 }
 
 h5 {
-	font-size: 4vw;
+	font-size: 5vw;
 	font-weight: 900;
 	background-color: #000;
 	color: #fff;
 	display: block;
 	padding: .5em;
-    text-shadow: 2px 2px 2px #FF1B65, 5px 0px 0px #B467FF; }
+    text-shadow: 2px 2px 2px #FF1B65, 5px 0px 0px #B467FF; 
+    font-family: 'Righteous', cursive;
+}
 
 h5:nth-child(2) {
 	position: absolute;
@@ -112,7 +117,7 @@ p.main-form-text {
 
 
 h3 {
-    font-size: 35px;
+	font-size: 32px;
     background-color: #000;
     padding: 20px;
     color: white;
@@ -120,7 +125,7 @@ h3 {
     letter-spacing: 8px;
     font-weight: bold;
     background-color: "";
-    line-height: 20pt;
+    line-height: 40pt;
     /* border-radius: 15px; */
     /* transform: translate(0, -35px); */
    /*  box-shadow:10px 10px black; */
@@ -131,6 +136,8 @@ h3 {
     /* shadow text */
     // text-shadow:1px 0 0 red,0 1px 0 red,-1px 0 0 red,0 -1px 0 red;
     text-shadow: 2px 2px 2px #FF1B65, 5px 0px 0px #B467FF;
+    font-family: 'Righteous', cursive;
+
 
 }
  

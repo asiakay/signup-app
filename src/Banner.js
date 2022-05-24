@@ -31,13 +31,18 @@ const Banner = () => {
     </p>
     <p></p> 
     <ListGroup variant="flush" id="lg">
-    <ListGroup.Item id="li">DAWs</ListGroup.Item>
-  <ListGroup.Item id="li">Git</ListGroup.Item>
-  <ListGroup.Item id="li">CI/CD</ListGroup.Item>
-  <ListGroup.Item id="li">HTML5/CSS3/JavaScript</ListGroup.Item>
-  <ListGroup.Item id="li">React.js</ListGroup.Item>
-  <ListGroup.Item id="li">Responsive Web Design</ListGroup.Item>
-  <ListGroup.Item id="li">Figma</ListGroup.Item>
+    <ListGroup.Item id="li">Music Theory & Sound Synthesis</ListGroup.Item>
+    <ListGroup.Item id="li">Ableton Live - ProTools - Logic</ListGroup.Item>
+    <ListGroup.Item id="li">HTML5/CSS3/JavaScript</ListGroup.Item>
+    <ListGroup.Item id="li">Responsive Web Design</ListGroup.Item>
+    <ListGroup.Item id="li">React UI Frameworks</ListGroup.Item>
+    <ListGroup.Item id="li">Adobe Suite & Figma</ListGroup.Item>
+    <ListGroup.Item id="li">Git - VCS - CI/CD </ListGroup.Item>
+    <ListGroup.Item id="li">API Orchestration</ListGroup.Item>
+    <ListGroup.Item id="li">Node.js & Express</ListGroup.Item>
+
+
+  
 
 </ListGroup>
 {/* <Chatbot 
