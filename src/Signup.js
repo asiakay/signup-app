@@ -78,11 +78,11 @@ const handleServerResponse = (ok, msg) => {
         <div className="col-lg-7 offset-lg-2 g-0 mx-auto">
             <div className="fill-form form-box">
             <div className="row g-0">
-                <div className="col-xl-6 col-lg-12 d-md-none d-sm-none d-xs-none d-lg-block form-box__img">
+                <div className="col-lg-12 d-md-none d-sm-none d-xs-none d-lg-block form-box__img">
                 
                 <img alt="Asia K Thinking" src={avant_me_color} id="asia-k"/>
              </div>
-                <div className="col-xl-6 col-lg-12 col-md-12 form-box__content">
+                <div className="col-lg-12 col-md-12 form-box__content">
                 <div id="box-title">
                     <p className="main-form-text">Stay Connected</p>
                     <p>Enter Your Info Below</p>

@@ -1,32 +1,27 @@
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown, Offcanvas } from "react-bootstrap";
-// import { Container } from "react-bootstrap";
-
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "../components/LanguageSwitcher";
 
 const Navigation = () => {
+    const { t } = useTranslation();
     return (
         <>
   {[false].map((expand) => (
             <Navbar key={expand}  expand={false} className="" id="top-nav">
                    <Container fluid>
-                    <Navbar.Brand href="#">
-                    <div class="black-box">
-                        
-		<h5>asialakay.net</h5>
-	</div>
-    </Navbar.Brand>
+                    <Navbar.Brand href="#"><div class="black-box"><h5>{t("app_name")}</h5></div></Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-${expand}`}
                         aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                         placement="end" >
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                                Menu
-                            </Offcanvas.Title>
+                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>{t("app_nav")}</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
+                                <LanguageSwitcher />
                             <NavDropdown
                                     title="Resources"
                                     id={`offcanvasNavbarDropdown-expand-${expand}`}
@@ -44,7 +39,7 @@ const Navigation = () => {
                             <Nav.Link href="https://www.mixcloud.com/asialakay/uploads/">DJ Mixes</Nav.Link>
                             <Nav.Link href="https://algogems.io/gallery/AsiaK">NFTs</Nav.Link>
                             <Nav.Link href="https://til.gatsbyjs.io/">Web3 Blog</Nav.Link>
-                            <Nav.Link href="https://asialakay-docs-asiakayy.vercel.app/">Tutorials (under construction)</Nav.Link>
+                            <Nav.Link href="https://asialakay-docs-asiakayy.vercel.app/">Developer Blog</Nav.Link>
                             </Nav>
                         </Offcanvas.Body>
                         </Navbar.Offcanvas>

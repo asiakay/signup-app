@@ -3,15 +3,13 @@ import Navigation from "./shared/Navigation";
 import YoutubeEmbed from "./components/YoutubeEmbed";
 import MixcloudEmbed from "./components/MixcloudEmbed";
 import { Container, Row, Col, ListGroup, Button } from "react-bootstrap";
-//import Github from "./components/github";
-import Chatbot from 'react-chatbot-kit'
-import 'react-chatbot-kit/build/main.css'
-import config from "./bot/config.js";
-import MessageParser from "./bot/MessageParser.js";
-import ActionProvider from "./bot/ActionProvider.js";
+import { useTranslation } from "react-i18next";
+
 
 
 const Banner = () => {
+const { t } = useTranslation(); 
+
     return ( <header>
 <Navigation />
  
@@ -25,11 +23,11 @@ const Banner = () => {
         <h3 className = "" > {
             " "
         } {" "}
-       Hi, I'm Asia Lakay. </h3>
+       {t("app_greet")} </h3>
 <p class="about">
-    I'm a multimedia artist, audio composer, graphic & user interface designer, frontend development engineer, and creative technologist. My tech stack includes the following languages, tools and frameworks:
+    I'm a multimedia artist, audio composer, graphic & user interface designer, front-end development engineer, and creative technologist. My tech stack includes the following languages, tools and frameworks: 
     </p>
-    <p></p> 
+    <p> 
     <ListGroup variant="flush" id="lg">
     <ListGroup.Item id="li">Music Theory & Sound Synthesis</ListGroup.Item>
     <ListGroup.Item id="li">Ableton Live - ProTools - Logic</ListGroup.Item>
@@ -40,11 +38,8 @@ const Banner = () => {
     <ListGroup.Item id="li">Adobe Suite & Figma</ListGroup.Item>
     <ListGroup.Item id="li">Git - VCS - CI/CD</ListGroup.Item>
     <ListGroup.Item id="li">API Orchestration</ListGroup.Item>
-
-
-  
-
-</ListGroup>
+    </ListGroup>
+</p>
 {/* <Chatbot 
     config={config}
     messageParser={MessageParser}
