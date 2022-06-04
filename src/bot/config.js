@@ -1,5 +1,5 @@
 // Config starter code
-import React from "react";
+// import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
   
 const botName = 'Asia K Bot';
