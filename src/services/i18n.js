@@ -14,7 +14,7 @@ i18next
 // view configuration options @ https://www.i18next.com/overview/configuration-options
 .use(HttpApi) // register the back-end plugin
 .init({
-    lng: "ar",
+    lng: "en",
     interpolation: {
         escapeValue: false,
     },
