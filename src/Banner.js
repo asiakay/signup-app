@@ -87,19 +87,19 @@ const { t } = useTranslation();
 
             <div id="watch">
             <div class="text-box">
-		<h5>A/V Projection Mix</h5>
-		<h5>A/V Projection Mix</h5>
+		<h5>Under Construction</h5>
+		<h5>Under Construction</h5>
 	</div> 
                
            {/*  <div class="text-box">
 		<h5>Watch</h5>
 		<h5>Watch</h5>
 	</div> */}
- <YoutubeEmbed embedId="l4s2VVagJeI" />
- </div>
+{/*  <YoutubeEmbed embedId="l4s2VVagJeI" />
+ */} </div>
  
- <MixcloudEmbed />
- 
+{/*  <MixcloudEmbed />
+ */} 
 
   
  
