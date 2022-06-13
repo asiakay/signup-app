@@ -22,9 +22,7 @@ const Navigation = () => {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <LanguageSwitcher />
-                                <Nav.Link href="https://www.mixcloud.com/asialakay/uploads/">DJ Mixes</Nav.Link>
-                                <Nav.Link href="https://til.gatsbyjs.io/">Web3 Blog</Nav.Link>
-                                <Nav.Link href="https://www.behance.net/ilyag">Graphic Design</Nav.Link>
+                                <Nav.Link href="https://asialakay-docs-asiakayy.vercel.app/">Technical Documentation</Nav.Link>
                                 <NavDropdown
                                 title="Frontend Dev Projects"
                                 id={`offcanvasNavbarDropdown-expand-${expand}`}>
@@ -42,14 +40,9 @@ const Navigation = () => {
                                     <NavDropdown.Item href="https://asiakay.github.io/p5js-demo/">p5js Demo</NavDropdown.Item>
                                     <NavDropdown.Item href="https://asiakay.github.io/BlazorGitHubPagesDemo/">ASP.Net Blazor App Demo</NavDropdown.Item>
                                 </NavDropdown>
-                         
-
-                            <Nav.Link href="https://asialakay-docs-asiakayy.vercel.app/">Technical Documentation</Nav.Link>
-                               
-                            
-                            
-                            
-                            <NavDropdown
+                                <Nav.Link href="https://www.behance.net/ilyag">Graphic Design</Nav.Link>
+                                <Nav.Link href="https://til.gatsbyjs.io/">Web3 Blog</Nav.Link>
+                                <NavDropdown
                                     title="Resources"
                                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                                     >
@@ -59,6 +52,8 @@ const Navigation = () => {
                                         <NavDropdown.Item href="https://padlet.com/asialakay/7r95wn8y6w5qewbv">A/V & Music NFT Info</NavDropdown.Item>
                                         <NavDropdown.Item href="https://padlet.com/asialakay/5whx56vtzv5vw8yy">Web3 Job Boards</NavDropdown.Item>
                             </NavDropdown>
+
+                                <Nav.Link href="https://www.mixcloud.com/asialakay/uploads/">DJ Mixes</Nav.Link>
 
                             </Nav>
                         </Offcanvas.Body>
