@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./shared/Navigation";
-import YoutubeEmbed from "./components/YoutubeEmbed";
-import MixcloudEmbed from "./components/MixcloudEmbed";
+// import YoutubeEmbed from "./components/YoutubeEmbed";
+// import MixcloudEmbed from "./components/MixcloudEmbed";
 import { Container, Row, Col, ListGroup, Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 

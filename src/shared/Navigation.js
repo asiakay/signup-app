@@ -26,11 +26,11 @@ const Navigation = () => {
                                 <NavDropdown
                                 title="Frontend Dev Projects"
                                 id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                                    <NavDropdown.Item href="https://music-asiakayy.vercel.app/">Audio Compositions</NavDropdown.Item>
-                                    <NavDropdown.Item href="https://artphotography-asiakayy.vercel.app/">Photography NFTs</NavDropdown.Item>
-                                    <NavDropdown.Item href="https://crypto-dashboard-deploy.herokuapp.com/">Historical/Realtime Cryptocurrency Chart</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://music-asiakayy.vercel.app/">Music Player</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://artphotography-asiakayy.vercel.app/">NFT Photo Gallery</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://crypto-dashboard-deploy.herokuapp.com/">Cryptocurrency Tracker</NavDropdown.Item>
                                     <NavDropdown.Item href="https://til.gatsbyjs.io/">Web3 Blog</NavDropdown.Item>
-                                    <NavDropdown.Item href="https://community-meta-app.vercel.app/blog">Community Engagement Blog</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://community-meta-app.vercel.app/">Community Engagement Blog</NavDropdown.Item>
                                     <NavDropdown.Item href="https://asiakay.github.io/https-PopularPreciousScriptinglanguages/">Financial Success Challenge Onboard UI</NavDropdown.Item>
                                     <NavDropdown.Item href="https://asiakay.github.io/quoteGenerator/">Motivational Quote Generator UI</NavDropdown.Item>
                                     <NavDropdown.Item href="https://asiakay.github.io/WhirlwindConfusedInterchangeability/">Savings & Investment Planner UI</NavDropdown.Item>
