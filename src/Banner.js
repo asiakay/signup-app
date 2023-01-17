@@ -25,13 +25,7 @@ const { t } = useTranslation();
         } {" "}
        {t("app_greet")} </h3>
 <p class="about">
-Let me introduce you to my professional portfolio, where you'll discover a diverse range of talents including creative and technical writing, digital asset creation, developing teaching tools and applications, IT/tech project management, and visually stunning UX/UI designs. Allow me to help elevate your business with my unique skillset. 
-<p>
-Specializing in full stack development, project management, and blockchain development, my portfolio includes works in web design, graphic design, digital marketing, multimedia art, audio composition, front-end development engineering and creative technology. My skill set includes proficiency in Music Theory & Sound Synthesis, Ableton Live, ProTools, Logic, HTML5/CSS3/JavaScript, Responsive Web Design, React UI Frameworks, Node.js & Express.js, Adobe Suite & Figma, Git, VCS, CI/CD, API Orchestration. 
-</p>
-<p>
-Committed to user-centered design and working closely with clients to understand their needs, constantly striving to learn and grow as a professional. Available for projects and collaborations, contact for more information. Thank you for visiting.
-</p>
+Let me introduce you to my professional portfolio, where you'll discover a diverse range of talents including creative and technical writing, digital asset creation, developing <a href="https://javascript-salon-asialakay.hashnode.dev/basic-javascript-algorithms-reversing-word-order" >technology content</a> and applications, IT/tech project management, and visually stunning UX/UI designs. Allow me to help elevate your business with my unique skillset. <p>
 
 </p>
    {/*
