@@ -1,4 +1,4 @@
-inimport React from "react";
+import React from "react";
 import Navigation from "./shared/Navigation";
 import YoutubeEmbed from "./components/YoutubeEmbed";
 import MixcloudEmbed from "./components/MixcloudEmbed";
