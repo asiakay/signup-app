@@ -1,4 +1,4 @@
-import React from "react";
+inimport React from "react";
 import Navigation from "./shared/Navigation";
 import YoutubeEmbed from "./components/YoutubeEmbed";
 import MixcloudEmbed from "./components/MixcloudEmbed";
@@ -25,7 +25,7 @@ const { t } = useTranslation();
         } {" "}
        {t("app_greet")} </h3>
 <p class="about">
-Let me introduce you to my professional portfolio, where you'll discover a diverse range of talents including creative and technical writing, digital asset creation, developing <a href="https://javascript-salon-asialakay.hashnode.dev/basic-javascript-algorithms-reversing-word-order" >technology content</a> and applications, IT/tech project management, and visually stunning UX/UI designs. Allow me to help elevate your business with my unique skillset. <p>
+Let me introduce you to my professional portfolio, where you'll discover a <a href="https://javascript-salon-asialakay.hashnode.dev/basic-javascript-algorithms-reversing-word-order" >diverse</a> range of talents including creative and technical writing, digital asset creation, developing <a href="https://javascript-salon-asialakay.hashnode.dev/intro-to-the-algorithm">technical, instructional content</a> and applications, IT/tech project management, and visually stunning UX/UI designs. Allow me to help elevate your business with my unique skillset. <p>
 
 </p>
    {/*
