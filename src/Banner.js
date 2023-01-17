@@ -25,7 +25,11 @@ const { t } = useTranslation();
         } {" "}
        {t("app_greet")} </h3>
 <p class="about">
-Let me introduce you to my professional portfolio, where you'll discover a <a href="https://javascript-salon-asialakay.hashnode.dev/basic-javascript-algorithms-reversing-word-order" >diverse</a> range of talents including creative and technical writing, digital asset creation, developing <a href="https://javascript-salon-asialakay.hashnode.dev/intro-to-the-algorithm">technical, instructional content</a> and applications, IT/tech project management, and visually stunning UX/UI designs. Allow me to help elevate your business with my unique skillset. <p>
+As a full stack developer, IT/tech project manager, and visual UX/UI specialist, I am passionate about creating user-centered designs that effectively communicate the clients message while also being easy to use and navigate. With over 10 years of experience in the field, I have honed my abilities in full stack development, project management, and blockchain development. My portfolio is a collection of my finest works, including web design, graphic design, digital marketing, multimedia art, audio composition, front-end development engineering, and creative technology.
+
+I am always looking for new opportunities to grow as a professional and to collaborate with others in the industry. If you are in need of a skilled and dedicated professional in the field of full stack development, IT/tech project management, and visual UX/UI, I would love to hear from you. Please don't hesitate to reach out to discuss potential projects or collaborations. Let's create something amazing together.
+
+
 
 </p>
    {/*
