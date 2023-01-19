@@ -25,9 +25,12 @@ const { t } = useTranslation();
         } {" "}
        {t("app_greet")} </h3>
 <p class="about">
-As a full stack developer, IT/tech project manager, and visual UX/UI specialist, I am passionate about creating user-centered designs that effectively communicate the clients message while also being easy to use and navigate. With over 10 years of experience in the field, I have honed my abilities in full stack development, project management, and blockchain development. My portfolio is a collection of my finest works, including web design, graphic design, digital marketing, multimedia art, audio composition, front-end development engineering, and creative technology.
+	Skilled full stack developer, IT/tech PM, and visual UX/UI specialist. Passionate about creating user-centered designs. 10+ years experience in web design, graphic design, digital marketing, multimedia art, audio composition, front-end development engineering, and creative technology. Seeking new opportunities for growth and collaboration in the industry. Let's create something amazing together.
+	
+	
+// As a full stack developer, IT/tech project manager, and visual UX/UI specialist, I am passionate about creating user-centered designs that effectively communicate the clients message while also being easy to use and navigate. With over 10 years of experience in the field, I have honed my abilities in full stack development, project management, and blockchain development. My portfolio is a collection of my finest works, including web design, graphic design, digital marketing, multimedia art, audio composition, front-end development engineering, and creative technology.
 
-I am always looking for new opportunities to grow as a professional and to collaborate with others in the industry. If you are in need of a skilled and dedicated professional in the field of full stack development, IT/tech project management, and visual UX/UI, I would love to hear from you. Please don't hesitate to reach out to discuss potential projects or collaborations. Let's create something amazing together.
+// I am always looking for new opportunities to grow as a professional and to collaborate with others in the industry. If you are in need of a skilled and dedicated professional in the field of full stack development, IT/tech project management, and visual UX/UI, I would love to hear from you. Please don't hesitate to reach out to discuss potential projects or collaborations. Let's create something amazing together.
 
 
 
