@@ -1,3 +1,5 @@
+![Image](https://user-images.githubusercontent.com/66960776/241713093-2e701e8a-6af7-4070-87b3-139e08527a2e.jpg)
+
 # Asialakay.net
 
 This project is a React web application consisting of multiple components that together create a portfolio website. The main components include App.js, Banner.js, Footer.js, and Signup.js.
