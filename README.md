@@ -32,6 +32,9 @@ This project is a React web application consisting of multiple components that t
 5. Access the application at `http://localhost:3000`.
 
 ## Dependencies
+
+The application uses the following dependencies:
+
 - React: A JavaScript library for building user interfaces.
 - React Router: A library for handling routing in React applications.
 - React DOM: Provides DOM-specific methods that can be used with React.
