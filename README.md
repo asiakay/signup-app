@@ -8,6 +8,7 @@ This project is a React web application consisting of multiple components that t
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Dependencies](#dependencies)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -24,14 +25,29 @@ This project is a React web application consisting of multiple components that t
 
 ## Usage
 
-1. Run the application:
+4. Run the application:
 
 `npm start`
 
-2. Access the application at `http://localhost:3000`.
+5. Access the application at `http://localhost:3000`.
+
+## Dependencies
+- React: A JavaScript library for building user interfaces.
+- React Router: A library for handling routing in React applications.
+- React DOM: Provides DOM-specific methods that can be used with React.
+- Axios: A library for making HTTP requests from the browser.
+- Formspree: A form submission service that handles form data and sends emails.
+- Node Sass: A library that enables the use of SCSS syntax in the project.
+- Bootstrap: A popular CSS framework for building responsive and mobile-first websites.
+- React Bootstrap: A React implementation of the Bootstrap framework.
+- React Icons: A library that provides a collection of popular icons as React components.
+- React Hook Form: A library for building flexible and efficient forms in React.
+- Yup: A schema validation library used in conjunction with React Hook Form for form validation.
+- React Toastify: A notification library for displaying toast notifications.
+- React Helmet: A library for dynamically managing the document head in React.
 
 ## License
-
+ 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contributing
