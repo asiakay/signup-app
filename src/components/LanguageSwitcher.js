@@ -14,6 +14,10 @@ function LanguageSwitcher(){
             >
                 <option value="en">English</option>
                 <option value="ar">عربي</option>
+
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+
             </select>
         </div>
     );

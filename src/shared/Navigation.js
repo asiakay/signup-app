@@ -17,11 +17,14 @@ const Navigation = () => {
                         aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                         placement="end" >
                         <Offcanvas.Header closeButton>
+
                             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>{t("app_nav")}</Offcanvas.Title>
+                            <LanguageSwitcher />
+
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                                <LanguageSwitcher />
+                                <Nav.Link href="https://calendly.com/asialakay">Book a 30 minute call</Nav.Link>
                                 <Nav.Link href="https://asialakay-docs-asiakayy.vercel.app/">Technical Documentation</Nav.Link>
                                 <NavDropdown
                                 title="Frontend Dev Projects"

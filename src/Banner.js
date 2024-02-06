@@ -1,10 +1,12 @@
 import React from "react";
 import Navigation from "./shared/Navigation";
-import YoutubeEmbed from "./components/YoutubeEmbed";
-import MixcloudEmbed from "./components/MixcloudEmbed";
+//import YoutubeEmbed from "./components/YoutubeEmbed";
+// import MixcloudEmbed from "./components/MixcloudEmbed";
 import { Container, Row, Col, ListGroup, Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-
+import gameguru1 from "./images/gameguru1.jpeg";
+// import gameguru2 from "./images/gameguru2.jpeg";
+// import avant_me_color from "./images/avant_me_color.jpeg";
 
 
 const Banner = () => {
@@ -97,8 +99,12 @@ const { t } = useTranslation();
             <div class="text-box">
 		<h5>Under Construction</h5>
 		<h5>Under Construction</h5>
+        <p>   </p>
+           
+
 	</div> 
-               
+    <img src={gameguru1} alt="gameeguru1"/>
+
            {/*  <div class="text-box">
 		<h5>Watch</h5>
 		<h5>Watch</h5>

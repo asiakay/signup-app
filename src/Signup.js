@@ -2,7 +2,6 @@ import React, {useState} from "react";
 // import { useForm } from "@formspree/react";
 // import digital from "./images/digital.jpeg";
 // import avant_me from "./images/avant_me.jpg";
-import avant_me_color from "./images/avant_me_color.jpeg";
 import axios from "axios";
 import './button.css';
 
@@ -20,21 +19,22 @@ const [inputs, setInputs] = useState({
 })
 
 const handleServerResponse = (ok, msg) => {
-  if (ok){
+  if (ok) {
     setStatus({
       submitted: true, 
       submitting: false,
-      info: {error: false, msg: msg}
-    })
+      info: { error: false, msg: msg }
+    });
+    // Clear input fields only when submission is successful
     setInputs({
       name: '',
       email: '',
       message: ''
-    }) 
+    });
   } else {
-      setStatus({
-        info: { error: true, msg: msg }
-      })
+    setStatus({
+      info: { error: true, msg: msg }
+    });
     }
   }
 
@@ -71,7 +71,7 @@ const handleServerResponse = (ok, msg) => {
 
 
   return (
-    <section>
+   /*  <section> */
       <div id="signup">
     <div className="container" id="form">
         <div className="row">
@@ -79,14 +79,20 @@ const handleServerResponse = (ok, msg) => {
             <div className="fill-form form-box">
             <div className="row g-0">
                 <div className="col-lg-12 d-md-none d-sm-none d-xs-none d-lg-block form-box__img">
-                
-                <img alt="Asia K Thinking" src={avant_me_color} id="asia-k"/>
+{/*                <div className="main-form-text">Schedule a 30 minute call</div> 
+ */}           {/*      <img alt="Asia K Thinking" src={avant_me_color} id="asia-k"/> */}
+
+           <div>
+          
+            </div>
+           </div>
              </div>
                 <div className="col-lg-12 col-md-12 form-box__content">
                 <div id="box-title">
                     <p className="main-form-text">Stay Connected</p>
                     <p>Enter Your Info Below</p>
                 </div>
+                
                 <form onSubmit={handleOnSubmit}>
                      <div className="mt-3">
                        <label>Your name</label>
@@ -94,8 +100,8 @@ const handleServerResponse = (ok, msg) => {
                         className="form-control"
                         id="name"
                         name="_name"
-                        class="rounded"
-                      placeholder="Your name.."
+/*                         className="rounded"
+ */                      placeholder="Your name.."
                         type="text"
                         onChange={handleOnChange}
                         required
@@ -123,7 +129,7 @@ const handleServerResponse = (ok, msg) => {
                     <textarea
                         className="form-control"
                      id="message"
-                        placeholder="Your message.."
+                        placeholder="Your message..."
                         type="text"
                         name="_message"
                         class="rounded"
@@ -155,7 +161,7 @@ const handleServerResponse = (ok, msg) => {
         </div>
         </div>
     </div>
-    </div>
-    </section>
+  
+  /*   </section> */
   );
 };
