@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown, Offcanvas } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "../components/LanguageSwitcher";
+// import LanguageSwitcher from "../components/LanguageSwitcher";
 
 const Navigation = () => {
     const { t } = useTranslation();
@@ -18,8 +18,8 @@ const Navigation = () => {
                         placement="end" >
                         <Offcanvas.Header closeButton>
 
-                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>{t("app_nav")}</Offcanvas.Title>
-                            <LanguageSwitcher />
+                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}> {t("app_nav")} </Offcanvas.Title>
+                           {/*  <LanguageSwitcher /> */}
 
                         </Offcanvas.Header>
                         <Offcanvas.Body>
