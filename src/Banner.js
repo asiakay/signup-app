@@ -27,6 +27,15 @@ const { t } = useTranslation();
         } {" "}
        {t("app_greet")} </h3>
 <p class="about">
+
+Hey, I'm Asia Lakay 👋 I'm a singer-songwriter, production artist, and tech enthusiast. My work blends the worlds of art, technology, and social activism to create impactful projects that drive social change. Currently, I run my own brand, where I create music, visual media, and SaaS solutions, focusing on promoting human rights, social equality, and community empowerment.
+<p></p>
+I develop and lead educational workshops and courses that empower individuals and communities by integrating art and technology. These sessions cover a wide range of topics, from innovative art techniques and digital media to utilizing emerging technologies like AR, VR, and AI. My aim is to equip participants with the tools and knowledge they need to make a difference.
+<p></p>
+Over the years, I've built a diverse portfolio of projects and content, including blog posts, videos, music tracks, and live performances. I love sharing my journey and the lessons I've learned through my blog and social media channels. Whether I'm writing about the latest trends in digital art or offering tips on integrating technology into creative practices, my goal is to inspire and educate.
+<p></p>
+In addition to my creative work, I develop SaaS solutions that address real-world challenges. My projects include tools for improving efficiency in various sectors, such as a Produce PLU Code Search app for grocery store employees and a digital inventory management system for florists. These tools leverage modern technologies to streamline processes and enhance productivity - allowing more time for creativity to flourish.
+<p></p>
 	Skilled full stack developer, IT/tech PM, and visual UX/UI specialist. Passionate about creating user-centered designs. 10+ years experience in web design, graphic design, digital marketing, multimedia art, audio composition, front-end development engineering, and creative technology. Seeking new opportunities for growth and collaboration in the industry. Let's create something amazing together.
 	
 	
