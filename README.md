@@ -27,6 +27,8 @@ This project is a React web application consisting of multiple components that t
 
    ```bash
    REACT_APP_FORMSPREE_PROJECT_ID=<your_formspree_project_id>
+   REACT_APP_FORMSPREE_FORM_ID=<your_live_form_id>
+   # Optional: override the default derived URL if needed
    REACT_APP_FORMSPREE_FORM_URL=https://formspree.io/f/<your_form_id>
    ```
 
