@@ -17,7 +17,10 @@ const [inputs, setInputs] = useState({
   email: '',
   message: ''
 })
-const formspreeFormUrl = process.env.REACT_APP_FORMSPREE_FORM_URL;
+const formspreeFormId = process.env.REACT_APP_FORMSPREE_FORM_ID;
+const formspreeFormUrl = formspreeFormId
+  ? `https://formspree.io/f/${formspreeFormId}`
+  : process.env.REACT_APP_FORMSPREE_FORM_URL;
 
 const handleServerResponse = (ok, msg) => {
   if (ok) {
