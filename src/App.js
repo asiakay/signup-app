@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FormspreeProvider } from '@formspree/react';
 import Header from "./shared/Header";
@@ -7,7 +7,7 @@ import Signup from "./Signup";
 import Footer from "./Footer";
 
 
-// Chatbot imports 
+// Chatbot imports
 /* import Chatbot from "react-chatbot-kit";
 import ActionProvider from './bot/ActionProvider';
 import MessageParser from './bot/MessageParser';
@@ -29,6 +29,7 @@ function App(){
     }
   }, [formspreeProjectId]);
 
+  const signupContent = <Signup />;
 
   return (
 
@@ -36,20 +37,24 @@ function App(){
 
       <Header/>
 
-      <FormspreeProvider project={formspreeProjectId}>
-        <Signup/>
-      </FormspreeProvider>
+      {formspreeProjectId ? (
+        <FormspreeProvider project={formspreeProjectId}>
+          {signupContent}
+        </FormspreeProvider>
+      ) : (
+        signupContent
+      )}
 
-{/*       <Chatbot 
-        config={config} 
-        actionProvider={ActionProvider} 
-        messageParser={MessageParser} 
+{/*       <Chatbot
+        config={config}
+        actionProvider={ActionProvider}
+        messageParser={MessageParser}
         /> */}
 
       <Footer/>
       </div>
 
- 
+
   );
 };
 
