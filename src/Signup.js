@@ -17,11 +17,12 @@ const [inputs, setInputs] = useState({
   email: '',
   message: ''
 })
+const formspreeFormUrl = process.env.REACT_APP_FORMSPREE_FORM_URL;
 
 const handleServerResponse = (ok, msg) => {
   if (ok) {
     setStatus({
-      submitted: true, 
+      submitted: true,
       submitting: false,
       info: { error: false, msg: msg }
     });
@@ -32,9 +33,11 @@ const handleServerResponse = (ok, msg) => {
       message: ''
     });
   } else {
-    setStatus({
+    setStatus(prevStatus => ({
+      ...prevStatus,
+      submitting: false,
       info: { error: true, msg: msg }
-    });
+    }));
     }
   }
 
@@ -53,9 +56,16 @@ const handleServerResponse = (ok, msg) => {
   const handleOnSubmit = e => {
     e.preventDefault()
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }))
+
+    if (!formspreeFormUrl) {
+      console.warn('Formspree form URL is not configured.');
+      handleServerResponse(false, 'Form submission is currently unavailable.');
+      return;
+    }
+
     axios({
       method: 'POST',
-      url: 'https://formspree.io/p/1935891009925807142/f/signup-app',
+      url: formspreeFormUrl,
       data: inputs
     })
     .then(response => {

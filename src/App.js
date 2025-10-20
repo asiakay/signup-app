@@ -17,10 +17,17 @@ import 'react-chatbot-kit/build/main.css';
 
 function App(){
   const { i18n } = useTranslation();
+  const formspreeProjectId = process.env.REACT_APP_FORMSPREE_PROJECT_ID;
 
   useEffect(() => {
     document.dir = i18n.dir();
   }, [i18n, i18n.language]);
+
+  useEffect(() => {
+    if (!formspreeProjectId) {
+      console.warn('Formspree project ID is not configured. Forms will not submit correctly.');
+    }
+  }, [formspreeProjectId]);
 
 
   return (
@@ -29,9 +36,9 @@ function App(){
 
       <Header/>
 
-      <FormspreeProvider project="{FORMSPREE_PROJECT_ID}">
+      <FormspreeProvider project={formspreeProjectId}>
         <Signup/>
-      </FormspreeProvider>  
+      </FormspreeProvider>
 
 {/*       <Chatbot 
         config={config} 
