@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 // import { useForm } from "@formspree/react";
 // import digital from "./images/digital.jpeg";
 // import avant_me from "./images/avant_me.jpg";
@@ -6,59 +6,61 @@ import axios from "axios";
 import './button.css';
 
 export default function Signup(){
+  const [status, setStatus] = useState({
+    submitted: false,
+    submitting: false,
+    info: { error: false, msg: null }
+  });
 
-const [status, setStatus] = useState({
-  submitted: false,
-  submitting: false,
-  info: { error: false, msg: null }
-})
-const [inputs, setInputs] = useState({
-  name: '',
-  email: '',
-  message: ''
-})
-const formspreeFormId = process.env.REACT_APP_FORMSPREE_FORM_ID;
-const formspreeFormUrl = formspreeFormId
-  ? `https://formspree.io/f/${formspreeFormId}`
-  : process.env.REACT_APP_FORMSPREE_FORM_URL;
+  const [inputs, setInputs] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
 
-const handleServerResponse = (ok, msg) => {
-  if (ok) {
-    setStatus({
-      submitted: true,
-      submitting: false,
-      info: { error: false, msg: msg }
-    });
-    // Clear input fields only when submission is successful
-    setInputs({
-      name: '',
-      email: '',
-      message: ''
-    });
-  } else {
-    setStatus(prevStatus => ({
-      ...prevStatus,
-      submitting: false,
-      info: { error: true, msg: msg }
-    }));
+  const formspreeFormId = process.env.REACT_APP_FORMSPREE_FORM_ID;
+  const formspreeFormUrl = formspreeFormId
+    ? `https://formspree.io/f/${formspreeFormId}`
+    : process.env.REACT_APP_FORMSPREE_FORM_URL;
+
+  const handleServerResponse = (ok, msg) => {
+    if (ok) {
+      setStatus({
+        submitted: true,
+        submitting: false,
+        info: { error: false, msg }
+      });
+      // Clear input fields only when submission is successful
+      setInputs({
+        name: '',
+        email: '',
+        message: ''
+      });
+    } else {
+      setStatus(prevStatus => ({
+        ...prevStatus,
+        submitting: false,
+        info: { error: true, msg }
+      }));
     }
-  }
+  };
 
   const handleOnChange = e => {
-    e.persist()
+    e.persist();
     setInputs(prev => ({
       ...prev,
       [e.target.id]: e.target.value
-    }))
+    }));
     setStatus({
       submitted: false,
       submitting: false,
-      info: {error: false, msg: null}
-    })
-  }
+      info: { error: false, msg: null }
+    });
+  };
+
   const handleOnSubmit = e => {
-    e.preventDefault()
-    setStatus(prevStatus => ({ ...prevStatus, submitting: true }))
+    e.preventDefault();
+    setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
     if (!formspreeFormUrl) {
       console.warn('Formspree form URL is not configured.');
@@ -71,110 +73,110 @@ const handleServerResponse = (ok, msg) => {
       url: formspreeFormUrl,
       data: inputs
     })
-    .then(response => {
-      handleServerResponse(
-        true,
-        'Your email was received. Thanks for being in touch!'
-      )
-    })
-    .catch(error => {
-      handleServerResponse(false, error.response.data.error)
-    })
-  }
-
+      .then(() => {
+        handleServerResponse(
+          true,
+          'Your email was received. Thanks for being in touch!'
+        );
+      })
+      .catch(error => {
+        const errorMessage = error.response?.data?.error || 'An unexpected error occurred. Please try again later.';
+        handleServerResponse(false, errorMessage);
+      });
+  };
 
   return (
-   /*  <section> */
-      <div id="signup">
-    <div className="container" id="form">
+    /*  <section> */
+    <div id="signup">
+      <div className="container" id="form">
         <div className="row">
-        <div className="col-lg-7 offset-lg-2 g-0 mx-auto">
+          <div className="col-lg-7 offset-lg-2 g-0 mx-auto">
             <div className="fill-form form-box">
-            <div className="row g-0">
+              <div className="row g-0">
                 <div className="col-lg-12 d-md-none d-sm-none d-xs-none d-lg-block form-box__img">
-{/*                <div className="main-form-text">Schedule a 30 minute call</div> 
- */}           {/*      <img alt="Asia K Thinking" src={avant_me_color} id="asia-k"/> */}
-
-           <div>
-          
-            </div>
-           </div>
-             </div>
-                <div className="col-lg-12 col-md-12 form-box__content">
-                <div id="box-title">
-                    <p className="main-form-text">Stay Connected</p>
-                    <p>Enter Your Info Below</p>
+                  {/*                <div className="main-form-text">Schedule a 30 minute call</div>
+ */}
+                  {/*      <img alt="Asia K Thinking" src={avant_me_color} id="asia-k"/> */}
+                  <div>
+                  </div>
                 </div>
-                
+              </div>
+              <div className="col-lg-12 col-md-12 form-box__content">
+                <div id="box-title">
+                  <p className="main-form-text">Stay Connected</p>
+                  <p>Enter Your Info Below</p>
+                </div>
+
                 <form onSubmit={handleOnSubmit}>
-                     <div className="mt-3">
-                       <label>Your name</label>
+                  <div className="mt-3">
+                    <label>Your name</label>
                     <input
-                        className="form-control"
-                        id="name"
-                        name="_name"
+                      className="form-control"
+                      id="name"
+                      name="_name"
 /*                         className="rounded"
- */                      placeholder="Your name.."
-                        type="text"
-                        onChange={handleOnChange}
-                        required
-                        value={inputs.name}                      
+ */                    placeholder="Your name.."
+                      type="text"
+                      onChange={handleOnChange}
+                      required
+                      value={inputs.name}
                     />
-                    </div> 
-                    <div className="mt-3">
-                      <label>Your email</label>
+                  </div>
+                  <div className="mt-3">
+                    <label>Your email</label>
                     <input
-                        className="form-control"
-                     id="email"
-                        placeholder="Your email.."
-                        type="email"
-                        name="_replyto"
-                        class="rounded"
-                        onChange={handleOnChange}
-                        required
-                        value={inputs.email}
+                      className="form-control rounded"
+                      id="email"
+                      placeholder="Your email.."
+                      type="email"
+                      name="_replyto"
+                      onChange={handleOnChange}
+                      required
+                      value={inputs.email}
                     />
-                    </div>
+                  </div>
 
-                    <div className="mt-3">
-                      <label>Your message</label>
-                     
+                  <div className="mt-3">
+                    <label>Your message</label>
+
                     <textarea
-                        className="form-control"
-                     id="message"
-                        placeholder="Your message..."
-                        type="text"
-                        name="_message"
-                        class="rounded"
-                        onChange={handleOnChange}
-                        required
-                        value={inputs.message}
+                      className="form-control rounded"
+                      id="message"
+                      placeholder="Your message..."
+                      type="text"
+                      name="_message"
+                      onChange={handleOnChange}
+                      required
+                      value={inputs.message}
                     />
-                    </div>
-                    <div className="d-grid mt-4">
-                    <div class="wrapper">
-                    <button type="submit" class="brutal-btn" value="Send Now" 
-                      disabled={status.submitting}>
-                          {!status.submitting
-                            ? !status.submitted
+                  </div>
+                  <div className="d-grid mt-4">
+                    <div className="wrapper">
+                      <button type="submit" className="brutal-btn" value="Send Now"
+                        disabled={status.submitting}>
+                        {!status.submitting
+                          ? !status.submitted
                             ? 'Submit'
-                          : 'Submitted'
-                        : 'Submitting...'}
+                            : 'Submitted'
+                          : 'Submitting...'}
 
-                    </button>
+                      </button>
                     </div>
-                    </div>
-                  </form>
-                  {status.info.error && (
-        <div className="error">Error: {status.info.msg}</div>
-      )}
-      {!status.info.error && status.info.msg && <div class="status-wrapper"><p class="status">{status.info.msg}</p></div>}                </div>
+                  </div>
+                </form>
+                {status.info.error && (
+                  <div className="error">Error: {status.info.msg}</div>
+                )}
+                {!status.info.error && status.info.msg && (
+                  <div className="status-wrapper"><p className="status">{status.info.msg}</p></div>
+                )}
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
+
+      /*   </section> */
     </div>
-  
-  /*   </section> */
   );
 };
