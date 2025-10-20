@@ -23,6 +23,15 @@ This project is a React web application consisting of multiple components that t
 
 3. Configure the necessary environment variables.
 
+   Create a `.env` file (or update your deployment environment) with the following values so the Formspree integration can connect to your account:
+
+   ```bash
+   REACT_APP_FORMSPREE_PROJECT_ID=<your_formspree_project_id>
+   REACT_APP_FORMSPREE_FORM_URL=https://formspree.io/f/<your_form_id>
+   ```
+
+   Replace the placeholders with the IDs provided by Formspree for your project and the form that should receive submissions.
+
 ## Usage
 
 4. Run the application:
